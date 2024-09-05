@@ -57,7 +57,7 @@ const New = () => {
       />
       
     </div>
-            <Button>Add</Button>
+            <Button onClick={handleClick}>Add</Button>
         </main>
         
     </div>
