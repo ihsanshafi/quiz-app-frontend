@@ -43,7 +43,7 @@ const New = () => {
         </div>
         </nav>
 
-        <main className="flex min-h-screen flex-col items-center justify-between p-24">
+        <main className="flex flex-col items-center justify-between p-24">
             <questionEntry/>
             <div className="p-4">
       <label htmlFor="inputField" className="block text-lg font-semibold mb-2">
