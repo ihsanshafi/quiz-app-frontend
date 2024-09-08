@@ -1,6 +1,5 @@
 "use client";
 
-import questionEntry from "@/components/dataEntry"
 import Button from "@/components/btn";
 import Link from "next/link";
 import { useState } from "react";
@@ -44,7 +43,7 @@ const New = () => {
         </nav>
 
         <main className="flex flex-col items-center justify-between p-24">
-            <questionEntry/>
+            <QuestionEntry/>
             <div className="p-4">
       <label htmlFor="inputField" className="block text-lg font-semibold mb-2">
         Enter question:
