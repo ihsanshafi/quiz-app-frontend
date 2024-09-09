@@ -1,17 +1,12 @@
 
 import Navbar from '@/components/nav'
 
-const home = () => {
+export default function New() {
   return (
-    <div>
-
-      <Navbar/>
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
-
+    <main>
+      <div>
+        <Navbar />
+      </div>
     </main>
-    </div>
-    
   );
-};
-
-export default home;
+}

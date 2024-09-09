@@ -4,6 +4,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import Button from './newBtn';
+import LButton from './loadButton';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,6 +29,9 @@ const Navbar = () => {
             
             <li>
               <Button/>
+            </li>
+            <li>
+              <LButton/>
             </li>
           </ul>
         </div>
