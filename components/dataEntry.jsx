@@ -54,9 +54,9 @@ const QuestionEntry = () => {
         />
       </div>
 
-      <Button onClick={handleSubmit}>Submit</Button>
+      <Button onClick={handleSubmit}>Add</Button>
 
-      <div className="mt-6">
+      <div className="mt-6"> 
         <h2 className="text-xl font-bold mb-2">Stored Questions and Answers:</h2>
         <ul>
           {storedQuestions.map((item, index) => (
